@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.satishamhetre.contactbook.MainActivity">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+    <EditText
+        android:id="@+id/enter_number"
+        android:layout_width="380dp"
+
+        android:layout_height="60sp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AddContact"
+        android:text="insert" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/button2"
+        android:onClick="Search"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/show_name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/show_number"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contact_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
