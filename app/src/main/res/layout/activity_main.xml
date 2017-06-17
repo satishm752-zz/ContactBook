@@ -50,12 +50,13 @@
         android:id="@+id/show_number"
         />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/contact_display"
+    <Button
+        android:id="@+id/SeeAllContacts"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:text="SeeAllContacts"
+        android:onClick="SeeAllContacts"/>
 
 
-    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

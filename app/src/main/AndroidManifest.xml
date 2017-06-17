@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Data.Contract"></activity>
+        <activity android:name=".Data.Contract" />
+        <activity android:name=".contact_display"></activity>
     </application>
 
 </manifest>
